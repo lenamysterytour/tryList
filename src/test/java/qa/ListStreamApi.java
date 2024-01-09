@@ -36,6 +36,7 @@ public class ListStreamApi {
     }
 }
 
+//multimap
 
 //   System.out.println(employees.get("Зарплата"));  //работает +++ выводит все зарплаты
 // System.out.println(employees.get("Зарплата").iterator().next());  // +++ выводит первую зарплату

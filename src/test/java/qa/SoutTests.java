@@ -1,6 +1,6 @@
 package qa;
 
-public class Test {
+public class SoutTests {
     public static void main(String[] args) {
         String a = "I love JAVA";
         String b = "I love Python";
@@ -18,6 +18,8 @@ public class Test {
                 break;
             default:
                 c = a + a;
+                System.out.println(c);
+                //I love JAVAI love JAVA
 
 
                 for (int i = 10; i < 20; i += 2) {
@@ -26,6 +28,8 @@ public class Test {
                     if (i % 4 == 0)
                         continue;
                     System.out.println(i);
+                    //10
+                    //14
                 }
 
         }}}

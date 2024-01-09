@@ -1,6 +1,7 @@
 package qa;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class MapPlay {
     public static void main(String[] args) {
@@ -40,6 +41,7 @@ public class MapPlay {
         employlist.add(1, vitya);
         employlist.add(2, alesha);
         employlist.add(3, dima);
+
 
 // Task: вывести имена всех сотрудников, младше 30.
 
