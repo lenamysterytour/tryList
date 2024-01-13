@@ -18,19 +18,18 @@ public class ListStreamApi {
                 Arrays.asList(new Person[]{kirill, vitaly, alexander, dementy}));
 
         //отобрать людей до 30
-      List<Person> zoomers = personList.stream()
+        List<Person> zoomers = personList.stream()
                 .filter((Person person) -> {
                     return person.getAge() < 30;
                 }).collect(Collectors.toList());
         System.out.println(zoomers);
 
         //отобрать людей с рублевой зп
-     String rubzp = "руб";
+        String rubzp = "руб";
         List<Person> roubzpworkers = personList.stream()
                 .filter((Person person) -> {
                     return person.getZp().contains(rubzp);
                 }).collect(Collectors.toList());
-
 
 
     }

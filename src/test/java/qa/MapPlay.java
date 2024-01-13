@@ -42,7 +42,6 @@ public class MapPlay {
         employlist.add(2, alesha);
         employlist.add(3, dima);
 
-
 // Task: вывести имена всех сотрудников, младше 30.
 
         int keshaAge = Integer.parseInt(kesha.get("Возраст"));
